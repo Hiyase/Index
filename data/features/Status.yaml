@@ -1,0 +1,5 @@
+weight: 3
+name: "Status"
+icon: "/img/Server.svg"
+url: "https://status.0du.org/#/"
+description: "这里会监测我跑起来的服务程序的运行状态"

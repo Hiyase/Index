@@ -1,0 +1,49 @@
+baseURL = 'localhost'
+languageCode = 'zh-CN'
+title = '冷曦的主页'
+theme = 'hugo-universal-them'
+defaultContentLanguage = "zh"
+
+[menu]
+#[[menu.main]]
+#    name       = "主页"
+#    identifier = "menu.home"
+#    url        = "/"
+#    weight     = 1
+[[menu.topbar]]
+    weight = 1
+    name = "Telegram"
+    url = "https://t.me/END_Sen"
+    pre = "<i class='fab fa-telegram-plane' style='font-size:20px'></i>"
+[params]
+    #about_us = ""
+    #copyright = ""
+    # Format dates with Go's time formatting
+    date_format = "January 2, 2006"
+    #dropdown_mouse_over = true
+    disabled_logo = true
+    logo_text = "冷曦的主页"
+# Enable or disable top bar with social icons
+[params.topbar]
+    enable = true
+    text = "一个希望世间一切安好的普通人"
+# Enable and disable widgets for the right sidebar
+
+[params.recent_posts]
+    enable = true
+    title = "愿世间一切安好"
+    subtitle = ">人生充满苦难，仍然砥砺前行，那个逐梦少年，你的梦还在吗？停止缅怀过去，向着未来出发，即便前路坎坷，对目标不放弃，仰望未来星空"
+    hide_summary = false
+
+[params.features]
+    enable = true
+    cols = 3 # Default: 3, Available values 2,3,4,6
+    # All features are defined in their own files. You can find example items
+    # at 'exampleSite/data/features'.
+    # For more information take a look at the README.
+
+[params.footer.recent_posts]
+    enable = false
+
+[params.footer]
+    enable = false

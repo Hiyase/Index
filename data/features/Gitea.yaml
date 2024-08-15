@@ -1,0 +1,6 @@
+weight: 1
+name: "Gitea"
+#icon: """<i class="fa-brands fa-git-alt"></i>"""
+icon: "/img/Git.svg"
+url: "https://gitea.0du.org"
+description: "我的Gitea服务，由我编写构建的程序皆会在这里"
